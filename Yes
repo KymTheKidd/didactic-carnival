@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jane Doe - Web Developer & Designer</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 2rem 0;
+        }
+        .about, .portfolio, .contact {
+            margin-bottom: 2rem;
+        }
+        h2 {
+            color: #333;
+            border-bottom: 2px solid #333;
+            padding-bottom: 0.5rem;
+        }
+        .portfolio-item {
+            margin-bottom: 1rem;
+        }
+        footer {
+            text-align: center;
+            padding: 1rem 0;
+            background-color: #333;
+            color: #fff;
+        }
+        a {
+            color: #333;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Jane Doe</h1>
+    <p>Web Developer & Designer</p>
+</header>
+
+<div class="container">
+    <section class="about">
+        <h2>About Me</h2>
+        <p>Hello! I'm Jane Doe, a passionate web developer and designer based in San Francisco. With over 5 years of experience in the industry, I specialize in creating beautiful, responsive websites that provide excellent user experiences.</p>
+    </section>
+
+    <section class="portfolio">
+        <h2>Portfolio</h2>
+        <div class="portfolio-item">
+            <h3>Project 1: E-commerce Website</h3>
+            <p>A fully functional e-commerce website built with React and Node.js.</p>
+        </div>
+        <div class="portfolio-item">
+            <h3>Project 2: Personal Blog</h3>
+            <p>A sleek and modern personal blog designed using WordPress.</p>
+        </div>
+        <div class="portfolio-item">
+            <h3>Project 3: Business Landing Page</h3>
+            <p>A professional landing page for a startup, developed with HTML, CSS, and JavaScript.</p>
+        </div>
+    </section>
+
+    <section class="contact">
+        <h2>Contact</h2>
+        <p>If you'd like to get in touch, feel free to send me an email at <a href="mailto:jane.doe@example.com">jane.doe@example.com</a> or connect with me on <a href="https://www.linkedin.com/in/janedoe" target="_blank">LinkedIn</a>.</p>
+    </section>
+</div>
+
+<footer>
+    <p>&copy; 2024 Jane Doe. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
